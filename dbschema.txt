@@ -1,0 +1,23 @@
+Chocolate
+1. name
+2. manufacturer:company
+3. price
+4. type
+5. description
+6. expirydate
+7. manufacturingdate
+8. nutrition:nutrients
+9. id
+
+Company
+1. name
+2. estb
+3. govtid
+
+Nutrients
+1. calories
+2. fat
+3. sugar
+4. carbohydrates
+5. fibre
+6. protein
