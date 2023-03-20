@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+
+{% block content %}
+<header>
+    <h1 class="site-heading text-center text-faded d-none d-lg-block">
+        <span class="site-heading-upper text-primary mb-3">The Indian Chocolate Company</span>
+        <span class="site-heading-lower">Chocolates of India</span>
+    </h1>
+</header>
+<p>The catalog has the following record counts:</p>
+  <ul>
+    <li><strong>Chocolates available:</strong> {{ num_chocolates }}</li>
+    <li><strong>Companys:</strong> {{ num_companies }}</li>
+  </ul>
+  
+{% endblock %}
